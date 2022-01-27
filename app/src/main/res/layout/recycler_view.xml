@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:scaleType="center"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:id="@+id/image_news"></ImageView>
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="21dp"
+        android:layout_below="@id/image_news"
+        android:background="@color/purple_200"
+        android:text="Furkan Turgut"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:paddingLeft="9dp"
+        android:id="@+id/textAuthor"></TextView>
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/textAuthor"
+        android:background="@color/purple_500"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:text="Yapılan şaka ciddiye alındı! Gomis yeniden Galatasaray'a geliyor - SonDakika.com"
+        android:id="@+id/textTitle"></TextView>
+</RelativeLayout>
